@@ -130,9 +130,9 @@ pos_sum=0
 neg_sum=0
 for index in range(len(numbers)):
     if numbers [index]>0:
-        pos_sum+=numbers[index]
+        pos_sum+=1
     else:
         numbers[index]<0
-        neg_sum+=numbers[index]
+        neg_sum+=1
 print(f"Sum of positive numbers {pos_sum}")
 print(f"Sum of negative numbers {neg_sum}")
